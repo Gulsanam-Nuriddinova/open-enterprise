@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  display: inline-block;
+}
+
+span {
+  display: inline-block;
+}
+
+button {
+  background: transparent;
+}
+
+.container {
+  max-width: 100%;
+  width: 1328px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  width: 1328px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.header ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header ul li {
+  display: flex;
+  gap: 40px;
+}
+.header ul li a {
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero .hero-text {
+  width: 608px;
+}
+.hero .hero-text h2 {
+  width: 608px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 125%;
+  color: black;
+  margin-bottom: 24px;
+}
+.hero .hero-text p {
+  width: 608px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 133%;
+  color: #66645E;
+  margin-bottom: 40px;
+}
+.hero .hero-text button {
+  padding: 20px 24px;
+  background: #71A894;
+  border-radius: 8px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 133%;
+  color: #FFFFFF;
+}/*# sourceMappingURL=style.css.map */

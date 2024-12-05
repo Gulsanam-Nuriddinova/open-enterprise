@@ -1,0 +1,30 @@
+.header {
+    width: 1328px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+
+
+        li {
+            display: flex;
+            gap: 40px;
+
+            a{
+
+                font-weight: 500;
+                font-size: 20px;
+                color: black;
+            }
+
+        }
+        
+    }
+
+}

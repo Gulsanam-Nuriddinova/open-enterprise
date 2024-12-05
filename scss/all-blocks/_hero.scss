@@ -1,0 +1,39 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .hero-text {
+        width: 608px;
+
+        h2 {
+
+            width: 608px;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 125%;
+            color: black;
+            margin-bottom: 24px;
+        }
+
+        p {
+            width: 608px;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 133%;
+            color: #66645E;
+            margin-bottom: 40px;
+        }
+
+        button {
+            padding: 20px 24px;
+            background: #71A894;
+            border-radius: 8px;
+            border: none;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 133%;
+            color: #FFFFFF;
+        }
+    }
+}
