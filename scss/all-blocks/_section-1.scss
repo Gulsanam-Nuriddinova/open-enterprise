@@ -1,0 +1,27 @@
+.section-1{
+
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 160px;
+
+    
+
+
+    li{
+        border-radius: 8px;
+        width: 427px;
+        height: 340px;
+        box-shadow: 3px 2px 8px 3px rgba(0, 0, 0, 0.1);
+background: #fff;
+
+a{
+    padding: 64px 24px 64px 24px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+}
+    }
+}
+}
