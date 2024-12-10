@@ -2,6 +2,7 @@
 
     ul {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
         margin-bottom: 160px;
@@ -19,6 +20,7 @@
             a {
                 padding: 64px 24px 64px 24px;
                 display: flex;
+                justify-content: center;
                 flex-wrap: wrap;
                 align-items: center;
                 color: #303031;
@@ -41,6 +43,8 @@
                     text-align: center;
                     margin-bottom: 64px;
                 }
+
+                
             }
         }
     }
