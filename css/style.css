@@ -258,44 +258,112 @@ button {
   margin-left: 233px;
 }
 
-.section-6 .big {
-  width: 427px;
-  padding: 25px;
-  border-radius: 16px;
-  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.1);
-  background: var(--white);
-  margin-bottom: 60px;
+.section-6 .cards ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
-.section-6 .big h3 {
-  width: 379px;
+.section-6 .cards ul li {
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  width: 427px;
+  height: 240px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  background: #FFFFFF;
+  margin-bottom: 48px;
+}
+.section-6 .cards ul li a {
+  padding: 24px 24px 28px 24px;
+}
+.section-6 .cards ul li a h3 {
+  width: 380px;
   font-weight: 700;
   font-size: 18px;
   line-height: 133%;
-  letter-spacing: -0.02em;
   color: #303031;
+  margin-bottom: 16px;
 }
-.section-6 .big p {
-  width: 379px;
+.section-6 .cards ul li a p {
+  width: 380px;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
-  letter-spacing: -0.02em;
   color: #303031;
   margin-bottom: 24px;
 }
-.section-6 .big button {
-  padding: 4px 8px;
+.section-6 .cards ul li a button {
+  gap: 3px;
+  padding: 4px 8px 4px 8px;
   border-radius: 40px;
   border: none;
   background: #71A894;
   color: #fff;
-  display: flex;
-  align-items: center;
-}
-.section-6 .big .apply {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 150%;
-  text-align: right;
+  letter-spacing: -0.02em;
+}
+.section-6 .cards ul li a .in-box {
+  display: flex;
+  align-items: center;
+  gap: 193px;
+}
+.section-6 .cards ul .small {
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  width: 427px;
+  height: 216px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  background: #FFFFFF;
+}
+.section-6 .cards ul .small a {
+  padding: 24px 24px 28px 24px;
+}
+.section-6 .cards ul .small a h3 {
+  width: 380px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 133%;
   color: #303031;
+  margin-bottom: 16px;
+}
+.section-6 .cards ul .small a p {
+  width: 380px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #303031;
+  margin-bottom: 24px;
+}
+.section-6 .cards ul .small a button {
+  gap: 3px;
+  padding: 4px 8px 4px 8px;
+  border-radius: 40px;
+  border: none;
+  background: #71A894;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+}
+.section-6 .cards ul .small a .in-box {
+  display: flex;
+  align-items: center;
+  gap: 193px;
+}
+.section-6 .cards ul .small .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 24px;
+  border-radius: 8px;
+  background: #303031;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 133%;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
